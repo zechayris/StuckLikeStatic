@@ -1,8 +1,8 @@
 // This file overwrites the stock UV config.js
 
 self.__uv$config = {
-  prefix: "https://jgdzfs.csb.app/",
-  bare: "https://le0.org",
+  prefix: "/uv/service/",
+  bare: "https://jgdzfs.csb.app/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/uv/uv.handler.js",
