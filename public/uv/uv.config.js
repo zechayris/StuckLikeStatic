@@ -2,6 +2,7 @@
 
 self.__uv$config = {
   prefix: "/uv/service/",
+  bare: "https://radon.games",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/uv/uv.handler.js",
